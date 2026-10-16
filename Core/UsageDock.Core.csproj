@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>UsageDock.Core</AssemblyName></PropertyGroup>
+  <ItemGroup><EmbeddedResource Include="pricing.json" /></ItemGroup>
+  <ItemGroup><PackageReference Include="ZstdSharp.Port" Version="0.8.8" /></ItemGroup>
+</Project>
