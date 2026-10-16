@@ -1,4 +1,4 @@
-# Usage Dock for Windows
+# Codex Usage Dock Tracker
 
 A Windows 11 tray app for Codex subscription limits, local token history, and estimated API-equivalent cost. Click its white tray icon to open a compact dashboard with Today, Yesterday, 30 Days, and All Time totals.
 
@@ -11,7 +11,7 @@ A Windows 11 tray app for Codex subscription limits, local token history, and es
 You need **Windows 11 x64** and Codex signed in with your own ChatGPT account. The release includes its .NET runtime, so Python, Node.js, an SDK, and administrator access are not required.
 
 1. Open Codex and **sign in with ChatGPT using your own account**. Complete any password or verification prompts in the official sign-in flow. See [Codex authentication](https://learn.chatgpt.com/docs/auth).
-2. [Download the latest Windows release](https://github.com/saintordevil/usage-dock-windows/releases/latest). Choose **`UsageDock-Windows-x64.zip`**, not GitHub's source-code ZIP.
+2. [Download the latest Windows release](https://github.com/saintordevil/codex-usage-tracker/releases/latest). Choose **`UsageDock-Windows-x64.zip`**, not GitHub's source-code ZIP.
 3. Right-click the ZIP, choose **Extract All**, and keep the complete folder in a permanent location. Do not run it from inside the ZIP.
 4. Double-click **`UsageDock.exe`**. It detects your own default Codex home and reads your available usage. The first history scan can take longer than later refreshes.
 5. If the tray icon is hidden, open the hidden-icons arrow beside the clock and drag the icon into the visible tray.
